@@ -1,0 +1,135 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+.nav {
+  background-color: #333;
+}
+.nav ul {
+  width: 1400px;
+  list-style-type: none;
+  overflow: hidden;
+  padding: 0;
+  margin: 0 auto;
+}
+.nav ul li {
+  float: left;
+}
+.nav ul li a {
+  display: block;
+  color: #fff;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+.nav ul li a:hover {
+  background-color: #555;
+}
+.intro,
+.about,
+.latest-activities,
+.testimonials,
+.cta {
+  text-align: center;
+  padding: 50px 0;
+  color: #333;
+}
+.intro .container,
+.about .container,
+.latest-activities .container,
+.testimonials .container,
+.cta .container {
+  width: 80%;
+  margin: auto;
+  max-width: 1200px;
+}
+.intro h2,
+.about h2,
+.latest-activities h2,
+.testimonials h2,
+.cta h2 {
+  margin: 20px 0;
+}
+.intro p,
+.about p,
+.latest-activities p,
+.testimonials p,
+.cta p {
+  margin: 20px 0;
+}
+.intro a.btn,
+.about a.btn,
+.latest-activities a.btn,
+.testimonials a.btn,
+.cta a.btn {
+  display: inline-block;
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+.intro a.btn:hover,
+.about a.btn:hover,
+.latest-activities a.btn:hover,
+.testimonials a.btn:hover,
+.cta a.btn:hover {
+  background-color: #0056b3;
+}
+.intro {
+  background-color: #f4f4f4;
+}
+.about {
+  background-color: #e7e7e7;
+}
+.about .about-image {
+  max-width: 100%;
+  height: auto;
+  margin-top: 20px;
+}
+.latest-activities {
+  background-color: #f4f4f4;
+}
+.latest-activities .activity {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+.latest-activities .activity .activity-image {
+  max-width: 300px;
+  margin-right: 20px;
+}
+.testimonials {
+  background-color: #e7e7e7;
+}
+.testimonials blockquote {
+  margin: 20px 0;
+  quotes: "“" "”" "‘" "’";
+}
+.testimonials blockquote:before {
+  content: open-quote;
+  font-size: 2em;
+}
+.testimonials blockquote:after {
+  content: close-quote;
+  font-size: 2em;
+}
+.cta {
+  background-color: #007bff;
+  color: #fff;
+}
+.cta h2,
+.cta p,
+.cta a {
+  color: #fff;
+}
+footer {
+  background-color: #343a40;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}

@@ -1,0 +1,148 @@
+// styles.less
+
+// 定义变量
+@primary-color: #007bff;
+@secondary-color: #f4f4f4;
+@text-color: #333;
+@nav-background: #333;
+@nav-text-color: #fff;
+@nav-hover-color: #555;
+@btn-background: @primary-color;
+@btn-hover-background: #0056b3;
+@footer-background: #343a40;
+@footer-text-color: #fff;
+
+// 基础样式
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+// 导航样式
+.nav {
+    background-color: @nav-background;
+    ul {
+      width: 1400px;
+        list-style-type: none;
+        overflow: hidden;
+        padding: 0;
+        margin: 0 auto;
+        li {
+            float: left;
+
+            a {
+                display: block;
+                color: @nav-text-color;
+                text-align: center;
+                padding: 14px 20px;
+                text-decoration: none;
+
+                &:hover {
+                    background-color: @nav-hover-color;
+                }
+            }
+        }
+    }
+}
+
+// 主要内容样式
+.intro, .about, .latest-activities, .testimonials, .cta {
+    text-align: center;
+    padding: 50px 0;
+    color: @text-color;
+
+    .container {
+        width: 80%;
+        margin: auto;
+        max-width: 1200px;
+    }
+
+    h2 {
+        margin: 20px 0;
+    }
+
+    p {
+        margin: 20px 0;
+    }
+
+    a.btn {
+        display: inline-block;
+        background-color: @btn-background;
+        color: @nav-text-color;
+        padding: 10px 20px;
+        text-decoration: none;
+        border-radius: 5px;
+        margin-top: 20px;
+
+        &:hover {
+            background-color: @btn-hover-background;
+        }
+    }
+}
+
+.intro {
+    background-color: @secondary-color;
+}
+
+.about {
+    background-color: darken(@secondary-color, 5%);
+
+    .about-image {
+        max-width: 100%;
+        height: auto;
+        margin-top: 20px;
+    }
+}
+
+.latest-activities {
+    background-color: @secondary-color;
+
+    .activity {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+
+        .activity-image {
+            max-width: 300px;
+            margin-right: 20px;
+        }
+    }
+}
+
+.testimonials {
+    background-color: darken(@secondary-color, 5%);
+
+    blockquote {
+        margin: 20px 0;
+        quotes: "“" "”" "‘" "’";
+
+        &:before {
+            content: open-quote;
+            font-size: 2em;
+        }
+
+        &:after {
+            content: close-quote;
+            font-size: 2em;
+        }
+    }
+}
+
+.cta {
+    background-color: @primary-color;
+    color: @footer-text-color;
+
+    h2, p, a {
+        color: @footer-text-color;
+    }
+}
+
+// 页脚样式
+footer {
+    background-color: @footer-background;
+    color: @footer-text-color;
+    text-align: center;
+    padding: 10px 0;
+}
