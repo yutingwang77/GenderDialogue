@@ -11,6 +11,7 @@
 @btn-hover-background: #0056b3;
 @footer-background: #343a40;
 @footer-text-color: #fff;
+@display-font: 'Times New Roman', serif;
 
 // 基础样式
 body, html {
@@ -138,6 +139,119 @@ body, html {
         color: @footer-text-color;
     }
 }
+// 容器样式
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+// 主内容区域样式
+.content_pg3 {
+    padding: 40px 0;
+  
+    .info_cont {
+      h1 {
+        margin: 0 0 20px;
+        color: @text-color;
+        font-family: @display-font;
+      }
+  
+      img {
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+        transition: transform 0.3s, box-shadow 0.3s;
+  
+        &:hover {
+          transform: translateY(-5px);
+          box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+        }
+      }
+   
+  
+      .pg6Ct {
+        width: 1400px;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        .p2{
+            a{
+                font-weight: 900;
+                color: black;
+                text-decoration: none;
+                &:hover { 
+                    text-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+                  }
+            }
+        }
+        .pic {
+          margin-right: 20px;
+          padding-top: 30px;
+  
+          img {
+            width: 650px;
+            // width 800px;
+            &:hover {
+              transform: translateY(0);
+              box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+            }
+          }
+        } 
+      }
+      .pg6Cttxt {
+        margin: 0;
+        text-align: justify;
+        h3{
+          font-size: 24px;
+        }
+        h4 {
+          font-weight: 800;
+          font-size: 18px;
+        }
+        p{
+          width: 100%;
+          text-align: justify;
+         
+        }
+      }
+      .pg8box {
+        width: 1400px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+  
+        .pk {
+          width: 630px;
+          display: flex;
+          justify-content: center;
+          flex-wrap: wrap;
+  
+          img {
+            width: 100px;
+          }
+        }
+  
+        .mj {
+          width: 630px;
+  
+          img {
+            width: 100%;
+          }
+        }
+  
+        .mj2 {
+          width: 650px;
+          height: 500px;
+  
+          img {
+            width: 650px;
+            height: 500px;
+            object-fit: cover;
+  
+          }
+        }
+      }
+  
+    }
+  }
 
 // 页脚样式
 footer {

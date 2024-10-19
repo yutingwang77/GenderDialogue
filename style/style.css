@@ -127,6 +127,97 @@ html {
 .cta a {
   color: #fff;
 }
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.content_pg3 {
+  padding: 40px 0;
+}
+.content_pg3 .info_cont h1 {
+  margin: 0 0 20px;
+  color: #333;
+  font-family: 'Times New Roman', serif;
+}
+.content_pg3 .info_cont img {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+.content_pg3 .info_cont img:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+.content_pg3 .info_cont .pg6Ct {
+  width: 1400px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.content_pg3 .info_cont .pg6Ct .p2 a {
+  font-weight: 900;
+  color: black;
+  text-decoration: none;
+}
+.content_pg3 .info_cont .pg6Ct .p2 a:hover {
+  text-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+}
+.content_pg3 .info_cont .pg6Ct .pic {
+  margin-right: 20px;
+  padding-top: 30px;
+}
+.content_pg3 .info_cont .pg6Ct .pic img {
+  width: 650px;
+}
+.content_pg3 .info_cont .pg6Ct .pic img:hover {
+  transform: translateY(0);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+}
+.content_pg3 .info_cont .pg6Cttxt {
+  margin: 0;
+  text-align: justify;
+}
+.content_pg3 .info_cont .pg6Cttxt h3 {
+  font-size: 24px;
+}
+.content_pg3 .info_cont .pg6Cttxt h4 {
+  font-weight: 800;
+  font-size: 18px;
+}
+.content_pg3 .info_cont .pg6Cttxt p {
+  width: 100%;
+  text-align: justify;
+}
+.content_pg3 .info_cont .pg8box {
+  width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.content_pg3 .info_cont .pg8box .pk {
+  width: 630px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.content_pg3 .info_cont .pg8box .pk img {
+  width: 100px;
+}
+.content_pg3 .info_cont .pg8box .mj {
+  width: 630px;
+}
+.content_pg3 .info_cont .pg8box .mj img {
+  width: 100%;
+}
+.content_pg3 .info_cont .pg8box .mj2 {
+  width: 650px;
+  height: 500px;
+}
+.content_pg3 .info_cont .pg8box .mj2 img {
+  width: 650px;
+  height: 500px;
+  object-fit: cover;
+}
 footer {
   background-color: #343a40;
   color: #fff;
