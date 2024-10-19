@@ -132,6 +132,9 @@ html {
   margin: 0 auto;
   padding: 0 20px;
 }
+.container h1 {
+  text-align: center;
+}
 .content_pg3 {
   padding: 40px 0;
 }
@@ -215,6 +218,135 @@ html {
   width: 650px;
   height: 500px;
   object-fit: cover;
+}
+.content_pg3 .gp4 a {
+  font-weight: 900;
+}
+.content_pg3 .gp4 a:hover {
+  text-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+}
+.content_pg3 .gp4 .text {
+  background-color: #f4f4f4;
+  color: #333;
+  font-family: 'Times New Roman', serif;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  position: relative;
+  margin: 40px auto;
+  max-width: 100%;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+.content_pg3 .gp4 .text:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+.content_pg3 .gp4 .text h3 {
+  color: #555;
+  font-size: 2em;
+  font-weight: 400;
+  margin: 0 0 20px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.content_pg3 .gp4 .text .p2 {
+  color: #333;
+  font-size: 1em;
+  line-height: 1.6;
+  letter-spacing: 0.5px;
+  margin: 0 0 20px;
+}
+.content_pg3 .gp4 .text .p2::first-letter {
+  font-size: 2em;
+  float: left;
+  margin-right: 4px;
+  line-height: 1;
+}
+.section-title {
+  text-align: center;
+  margin-bottom: 40px;
+  color: #007bff;
+}
+.contact-us {
+  padding: 80px 0;
+}
+.contact-us .container {
+  max-width: 1200px;
+  margin: auto;
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.contact-us .container .contact-info {
+  margin-bottom: 40px;
+}
+.contact-us .container .contact-info p {
+  line-height: 1.5;
+  color: #333;
+}
+.contact-us .container .contact-info p i {
+  margin-right: 10px;
+  color: #666;
+}
+.contact-us .container .map {
+  margin-bottom: 40px;
+}
+.contact-us .container .contact-form .form-group {
+  margin-bottom: 20px;
+}
+.contact-us .container .contact-form .form-group label {
+  display: block;
+  margin-bottom: 5px;
+  color: #666666;
+}
+.contact-us .container .contact-form .form-group input[type="text"],
+.contact-us .container .contact-form .form-group select,
+.contact-us .container .contact-form .form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #f4f4f4;
+  border-radius: 5px;
+  transition: border-color 0.3s;
+}
+.contact-us .container .contact-form .form-group input[type="text"]:focus,
+.contact-us .container .contact-form .form-group select:focus,
+.contact-us .container .contact-form .form-group textarea:focus {
+  border-color: #007bff;
+}
+.contact-us .container .contact-form .form-group textarea {
+  resize: none;
+}
+.contact-us .container .contact-form .btn {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.contact-us .container .contact-form .btn:hover {
+  background-color: #0062cc;
+}
+.contact-us .container .social-links {
+  margin-top: 20px;
+}
+.contact-us .container .social-links h3 {
+  color: #333;
+}
+.contact-us .container .social-links a {
+  display: inline-block;
+  margin-right: 10px;
+  color: #666;
+  transition: color 0.3s;
+}
+.contact-us .container .social-links a:hover {
+  color: #007bff;
+}
+.contact-us .container .social-links a i {
+  margin-right: 5px;
 }
 footer {
   background-color: #343a40;
