@@ -68,15 +68,23 @@ header {
   transform: scale(1.2);
   /* 悬停时放大 */
 }
-.pics321 .indas {
+.flx {
   display: flex;
-  overflow-y: scroll;
-  gap: 20px;
+  align-items: center;
+  justify-content: space-between;
 }
-.pics321 .indas img {
-  height: 500px;
-  border-radius: 10px ;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+.flx .rit img {
+  width: 500px;
+  border-radius: 10px;
+}
+.flx2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.flx2 .rit img {
+  width: 300px;
+  border-radius: 10px;
 }
 .main1 {
   background-color: #f4f4f4;
@@ -96,8 +104,9 @@ header {
 }
 .main1 .intro {
   text-align: center;
-  background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
-  color: #ffffff;
+  background-image: url(../img/bj.jpg);
+  background-size: cover;
+  color: #333;
 }
 .main1 .intro .container {
   padding: 80px 30px;
@@ -270,8 +279,20 @@ header {
 .content_pg3 {
   padding: 40px 0;
 }
+.content_pg3 .biaoyu {
+  background-color: #f4f4f4;
+  color: #007bff;
+  font-family: 'Times New Roman', serif;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  position: relative;
+  margin: 40px auto;
+  max-width: 100%;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
 .content_pg3 .biaoyu p {
-  font-size: 1.2em;
+  font-size: 1.4em;
   background-image: linear-gradient(to right, #ffa600, #9198e5);
   -webkit-background-clip: text;
   background-clip: text;
@@ -391,7 +412,7 @@ header {
 }
 .content_pg3 .gp4 .text .p2 {
   color: #333;
-  font-size: 1em;
+  font-size: 1.3em;
   line-height: 1.6;
   letter-spacing: 0.5px;
   margin: 0 0 20px;
@@ -422,12 +443,12 @@ header {
   margin: 20px 0;
 }
 .content_pg33 .pic {
-  flex: 1;
-  margin-right: 20px;
+  text-align: center;
 }
 .content_pg33 .pic img {
-  width: 100%;
+  width: 75%;
   height: auto;
+  margin: 0 auto;
   border-radius: 5px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
